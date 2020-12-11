@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pruebarickmorty
 
 ## Project setup
@@ -27,3 +28,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# pruebaRickMorty
+>>>>>>> 9f33d08c752a4e56bcbdd4d3f8fec4d648cae4f1
