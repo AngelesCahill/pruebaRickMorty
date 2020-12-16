@@ -4,7 +4,7 @@
         <table class="table table-hover m-5" v-for="(item,index) in mostrarOpiniones" :key="index">
             
             <tbody>
-                <tr>
+                <tr class="col-2 col-sm-12 col-md-2 col-lg-2 col-xl-2">
                 <td>{{index+1}}</td>
                  <td>{{item.personaje}}</td>
                 <td>{{item.nombre}}</td>

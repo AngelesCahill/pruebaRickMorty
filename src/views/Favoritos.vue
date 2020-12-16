@@ -15,9 +15,8 @@
                             </ul>
                         </div>
                         </div>
-                        
-                        
-                
+                        <button type="button" class="btn btn-outline-warning mt-3 mx-auto d-block" @click="eliminandoPersonajeFavorito">Eliminar de Favoritos</button>
+                        <button type="button" class="btn btn-outline-warning mt-3 mx-auto d-block" @click="$router.push({name: 'Home'})">Volver a Inicio</button>
                 </div>
             </div>
         </div>

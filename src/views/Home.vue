@@ -21,7 +21,7 @@
 
                 <button type="button" class="btn btn-outline-warning mt-3 mx-auto d-block" @click="$router.push({name: 'VerMas'})">Ver Mas</button>
 
-                <div v-if="mostrarModal" class="mimodal">
+                         <div v-if="mostrarModal" class="mimodal">
                       <div class="modal-mask">
                         <div class="modal-wrapper">
                           <div class="modal-container">
@@ -54,10 +54,9 @@
                   </div>
            </div>      
         </div>
+        
       </div> 
     </div>
-    
-   
   </div>
 </template>
 
@@ -65,7 +64,6 @@
 
 import {mapGetters, mapActions} from "vuex";
 import Swal from 'sweetalert2';
-
 
 export default {
   name: 'Home',
@@ -77,7 +75,7 @@ export default {
       }
   },
   components: {
-   
+      
   },
   methods: {
         nuevaOpinion(){
