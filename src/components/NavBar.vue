@@ -1,11 +1,11 @@
 <template>
   <div>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <nav class="navbar navbar-expand-lg navbar-light bg-warning">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Rick and Morty</a>
             
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav ml-auto mr-5">
                 
                 <li class="nav-item">
                   <router-link to="/">Inicio</router-link>
@@ -47,6 +47,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #fff;
+  font-size: 1rem;
 }
 </style>
